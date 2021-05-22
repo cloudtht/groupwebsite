@@ -1,0 +1,82 @@
+ <!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<style>
+img {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  width: 600px;
+  height: 400px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+body {font-family: "Manaco", Copperplate;
+ background-color:#b5d4de;
+}
+.sidebar {
+  height: 100%;
+  width: 160px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #000000;
+  overflow-x: hidden;
+  padding-top: 16px;
+}
+
+.sidebar a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 20px;
+  color: #B0C4DE;
+  display: block;
+}
+
+.sidebar a:hover {
+  color: #FFFFFF;
+}
+
+.main {
+  margin-left: 180px; 
+  padding: 0px 10px;
+  float: center;
+}
+
+@media screen and (max-height: 450px) {
+  .sidebar {padding-top: 15px;}
+  .sidebar a {font-size: 18px;}
+}
+</style>
+</head>
+<body>
+
+<div class="sidebar">
+  <a href="GroupProjectAboutUs.html"><i class="fa fa-fw fa-wrench"></i> About Us</a>
+  <a href="Explore.html"><i class="fa fa-fw fa-user"></i> Explore</a>
+  <a href="GroupProjectEvent.html"><i class="fa fa-fw fa-user"></i> Events</a>
+  <a href="ContactUs.html"><i class="fa fa-fw fa-envelope"></i> Contact Form</a>
+</div>
+
+<div class="main">
+
+  <h1 style="text-align:center"> San Bernardino Automotive Museum</h1>
+  
+
+<div style="text-align: center"><img src="https://th.bing.com/th/id/R1985d541e55c4b2bd20e45e04e21aa17?rik=bEJ6ryJaDHEBWg&riu=http%3a%2f%2fwww.newdesignfile.com%2fpostpic%2f2010%2f03%2fvintage-car-vector-logo_19119.png&ehk=FYRFi1N0BV6ISmie5F0L%2bQu7PNDk2f%2fX5QCckIqYvU0%3d&risl=&pid%22%20width=%22100%22%20/%3E%3C/div%3E" width="100" /></div>
+
+  <h2 style="text-align:center"> Welcome to the Finest Classic Car Collection 
+  in Southern California</h2>
+  <h3 style="text-align:center"> Our Location: 5500 University Parkway, San Bernardino, CA, 92407.</h3>
+  <h3 style="text-align:center"> Visit Us Online: Select 'Explore'.</h3>
+  <h3 style="text-align:center"> Contact Us: Telephone: 951 295 1254.</h3>
+  <h3 style="text-align:center"> Email: info@sanbernardinomuseum.com.us.</h3>
+
+</div>
+</body>
+</html> 
